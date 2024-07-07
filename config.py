@@ -31,16 +31,16 @@ except ModuleNotFoundError:
 class Config:
     #Telegram API Stuffs
     load_dotenv()  # load enviroment variables from .env file
-    ADMIN = os.environ.get("ADMINS", '')
+    ADMIN = os.environ.get("6800876826", '')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    API_ID = int(os.environ.get("24717473", ''))
+    API_HASH = os.environ.get("cd5e64ec6d67d55d8f7f437a9fa22d95", "")
+    BOT_TOKEN = os.environ.get("6521072301:AAFrVaU6k06nddSJB4mOOpH9HPLf7K-7dbI", "")     
+    SESSION = os.environ.get("1AZWarzcBuwQtPx4FsLBoQM_Y1H06Agj8uHjzrnPrm5lImAia2iSTP257xknakCzAB9_3KKmyO6mD61i2er5CPo2wR28dSVoNuJqEXGBLqXV6nrJN4A16Yb2cNQDP5x6UuUl8eA5LJ5bjDd2kbIH2ZoEEl1endlpia7rP_Im2Z32q_nvHpskRebAoRoSDb6ApJLl-CH06l6NDaSx2zO43O4OWp_SkBbudhVGDPrSobr5tx56oviYp8if3ELJNK8ooK7wVl0JXdYIJySk8U3NWKELpZ29CSXWvR5E-57ffZ3YRXtR2v6e3XV0kif24SQQUuOvnho540mipeLuMD_wE4mKNkF7v7N0=", "")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
+    CHAT = int(os.environ.get("-1001508048226", ""))
     LOG_GROUP=os.environ.get("LOG_GROUP", "")
 
     #Stream 
@@ -52,8 +52,8 @@ class Config:
 
 
     #heroku
-    API_KEY=os.environ.get("HEROKU_API_KEY", None)
-    APP_NAME=os.environ.get("HEROKU_APP_NAME", None)
+    API_KEY=os.environ.get("HRKU-04fa783c-dd19-4858-90be-241ead13e252", None)
+    APP_NAME=os.environ.get("porn-streamer", None)
 
 
     #Optional Configuration
@@ -114,7 +114,7 @@ class Config:
     MUTED=False
     HAS_SCHEDULE=None
     IS_ACTIVE=None
-    VOLUME=100
+    VOLUME=20
     CURRENT_CALL=None
     BOT_USERNAME=None
     USER_ID=None
