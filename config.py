@@ -36,8 +36,8 @@ class Config:
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
     API_ID = int(os.environ.get("24717473", ''))
     API_HASH = os.environ.get("cd5e64ec6d67d55d8f7f437a9fa22d95", "")
-    BOT_TOKEN = os.environ.get("6521072301:AAFrVaU6k06nddSJB4mOOpH9HPLf7K-7dbI", "")     
-    SESSION = os.environ.get("1AZWarzcBuwQtPx4FsLBoQM_Y1H06Agj8uHjzrnPrm5lImAia2iSTP257xknakCzAB9_3KKmyO6mD61i2er5CPo2wR28dSVoNuJqEXGBLqXV6nrJN4A16Yb2cNQDP5x6UuUl8eA5LJ5bjDd2kbIH2ZoEEl1endlpia7rP_Im2Z32q_nvHpskRebAoRoSDb6ApJLl-CH06l6NDaSx2zO43O4OWp_SkBbudhVGDPrSobr5tx56oviYp8if3ELJNK8ooK7wVl0JXdYIJySk8U3NWKELpZ29CSXWvR5E-57ffZ3YRXtR2v6e3XV0kif24SQQUuOvnho540mipeLuMD_wE4mKNkF7v7N0=", "")
+    BOT_TOKEN = os.environ.get("7271136778:AAEYmr9Fc_vyARQhPRE24pTqam2R3uylACQ", "")     
+    SESSION = os.environ.get("1AZWarzcBu8Eri5_R-b5PEQOydtKw-jaZvI_P2iIgUoAUgulMdKs1cjNnEZZf9WsA33gRy4HwbS301MJ3V0HCYweGagneFCijHdPzD7yJ7cIvZ-fnt6QGjW_aGkIeAQRCrdU22Xp_PPeSsjLqW5LRR2vifXXRbxF3KiGBQ4L2u4DanBf9AHzMzd2-Zr-XnBeVlYJIfIAEccoZcm-d6hdfVYOMwqAzgHRroBm4cB6sFqJg1Ey8_COClcHsZvo5Ur6Hs8Ejy79MCiTueDVFg7eP9OJ8lSRplSL2lskAe09Ui5ICBsXJj20EICDCUYIBto1w3Xmv5F93XezacKL282Op9Tx-TE_vFXM=", "")
 
     #Stream Chat and Log Group
     CHAT = int(os.environ.get("-1001508048226", ""))
