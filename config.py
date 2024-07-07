@@ -52,7 +52,7 @@ class Config:
 
 
     #heroku
-    API_KEY=os.environ.get("HRKU-04fa783c-dd19-4858-90be-241ead13e252", None)
+    API_KEY=os.environ.get("HRKU-42454118-f8d9-42d6-9c14-e57f5b2e8223", None)
     APP_NAME=os.environ.get("porn-streamer", None)
 
 
